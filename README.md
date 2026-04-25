@@ -29,24 +29,49 @@ Hoewel dit geen zwaar machine-learning model is, toont het wel een kern-idee van
 ## Projectstructuur
 
 - `main.py` - hoofdprogramma met chatbotlogica
+- `app.py` - webversie van de chatbot (Streamlit)
 - `README.md` - projectuitleg
-- `requirements.txt` - dependencies (geen externe pakketten nodig)
+- `requirements.txt` - dependencies
 
 ## Installatie en uitvoeren
 
 1. Zorg dat Python 3 geinstalleerd is.
 2. Open een terminal in de projectmap.
-3. (Optioneel) Installeer dependencies:
+3. Installeer dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Start de chatbot:
+4. Start de terminalversie:
 
 ```bash
 python main.py
 ```
+
+## Webversie testen (aanrader voor leerkracht)
+
+Start de chatbot als webapp:
+
+```bash
+streamlit run app.py
+```
+
+Open daarna de URL die in je terminal verschijnt (meestal `http://localhost:8501`).
+Zo kun je in een nette chatinterface vragen stellen.
+
+## Vanaf GitHub publiek testbaar maken
+
+GitHub zelf draait geen Python-app direct. Voor een klikbare online demo:
+
+1. Ga naar [Streamlit Community Cloud](https://share.streamlit.io/).
+2. Log in met je GitHub-account.
+3. Kies repository: `bilalehb20/ai-chatbot`
+4. Kies branch: `main`
+5. Kies app file: `app.py`
+6. Klik op **Deploy**.
+
+Daarna krijg je een publieke link die je in je README kunt zetten, zodat je leerkracht direct online kan testen zonder iets te installeren.
 
 ## Voorbeeldinputs
 
