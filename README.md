@@ -9,6 +9,8 @@ rule-based intentherkenning. De bot analyseert gebruikersinvoer en kiest automat
 
 Dit project is ontworpen als schoolportfolio-bewijs van praktische AI-toepassing.
 
+Deze chatbot maakt gebruik van eenvoudige intentherkenning om gebruikersinput te analyseren en gepaste antwoorden te genereren. Met behulp van tekstnormalisatie en keyword-detectie wordt de intentie van de gebruiker bepaald, waarna een contextgerichte reactie wordt teruggegeven. Zo demonstreert dit project op een duidelijke en toegankelijke manier de toepassing van basis-AI-concepten in Python.
+
 ## Hoe werkt het?
 
 De chatbot gebruikt simpele NLP-logica:
